@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="438.0" prefWidth="653.0"
+            xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.ikonli_maven.HelloController">
+    <children>
+        <VBox layoutX="14.0" layoutY="14.0" prefHeight="416.0" prefWidth="110.0">
+            <children>
+                <Button fx:id="btn_showicons" mnemonicParsing="false" onAction="#mShowIcons" prefHeight="43.0" prefWidth="110.0" text="Show icons" />
+            </children>
+        </VBox>
+        <FlowPane fx:id="flw_Main" layoutX="137.0" layoutY="14.0" prefHeight="416.0" prefWidth="505.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="140.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+    </children>
+</AnchorPane>
